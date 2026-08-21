@@ -1,0 +1,35 @@
+body {
+    background-color: #8D0EC7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+displat:flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+card :hover {
+    transform: translate(-8px);
+
+    box-shadow: 0 10px 25px rgba(0 , 18 , 175 , 0.5);
+}
+
+
+.card {
+    background-color: rgb(235, 207, 255);
+    border-radius:12px;
+    box-shadow: 0 4px 12px rgb(235, 39, 245);
+    padding: 30px;
+    max-width:400px;
+    text-align:center;
+}
+
+.card img{ 
+border-radius:50%;
+width:150px;
+height:150px;
+object-fit:cover;
+
+}
+
+
